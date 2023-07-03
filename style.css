@@ -35,6 +35,23 @@
     padding: 0px 30px;
 }
 
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .barra {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    }
+
+    .lis-1 {
+    margin-top: 20px;
+    }
+
+    .subLis-1-1 {
+    margin-top: 20px;
+    }
+}
+
 div .im, ul .lis-1  {
     padding: 1rem;
 

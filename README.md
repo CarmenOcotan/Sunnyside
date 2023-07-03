@@ -4,3 +4,5 @@
  <h2 align="center"> No es responsive</h2>
 
  ![Texto alternativo de la imagen](./design/desktop-preview.jpg)
+
+ 
