@@ -1,0 +1,324 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    height: calc(98vw / 1.8);
+}
+
+.header_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.conteiner1{
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    top: 2.5rem;
+    position: absolute;
+    width: 100%;
+    font-size: 18px;
+    padding: 0px 30px;
+}
+
+div .im, ul .lis-1  {
+    padding: 1rem;
+
+}
+
+.lis-1 {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.subLis-1{
+    padding: 1.5rem 1rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+
+
+.subLis-1-1 {
+    font-family: 'Fraunces', serif; 
+    color:  hsl(212, 27%, 19%);
+    background: hsl(0, 0%, 100%) ;
+    border-radius: 50PX;
+    padding: 1rem 1.7rem;
+    text-decoration: none;
+}
+
+.subLis-1-1:hover {
+    color: hsl(0, 0%, 100%);
+    background: #6ECEFF;
+    transition: .3s ease-out;
+}
+
+.im{
+    display: flex;
+    align-items: center;
+}
+
+.logoo{
+    width: 12rem;
+}
+
+.flecha{
+    padding-top: 10px;
+}
+
+.tituloGrande-1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.tituloGrande {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Fraunces', serif;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 8px;
+    font-size: 2.5rem;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    
+}
+
+/* Segunda parte (MAIN) */
+
+.main6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    font-family: 'Barlow', sans-serif;
+    color:hsl(232, 10%, 55%);
+}
+
+.main6_1-1{
+    display: flex;
+    width: 67%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    place-self: center;
+}
+
+.primerParrafo {
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+
+.learn{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    top:-14px
+}
+
+.linea_amarilla {
+    background: hwb(51 66% 0%);
+    width: 140px;
+    height: 8px;
+    border-radius: 5px;
+    transition: .3s ease-out;
+}
+
+.linea_amarilla:hover {
+    background-color: hsl(51, 100%, 49%);
+}
+
+.linea_roja {
+    background: hwb(7 82% 0%);
+    width: 140px;
+    height: 8px;
+    border-radius: 5px;
+    transition: .3s ease-out;
+}
+
+.linea_roja:hover {
+    background-color:hsl(7, 99%, 70%);
+}
+
+.primerasImagenes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h1Main {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.main6_12 {
+    aspect-ratio: 1 / 1;
+    position: relative;
+    place-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.primerasImagenes_2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+} 
+
+.parrafoEnfoto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    color:hsl(198, 62%, 26%);
+    gap: 2rem;
+    line-height: 1.5rem;
+}
+
+.h1_2 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}   
+
+/* CARDS TESTIMONIOS*/
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    gap: 1.5rem;
+}
+
+.testImg {
+    border-radius: 50% 50%;
+    width: 80px;
+}
+
+.casiFinal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 1.5rem;
+    gap:3rem;
+} 
+
+.testiCards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(198, 62%, 26%);
+    gap: 3rem;
+}
+
+.casifinalTitulo{
+    font-family: 'Fraunces', serif; 
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.nombre{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.ocupacion{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', serif;
+    margin-top: 13px;
+    font-size: 16px;
+
+}
+
+
+/* SECTION iMAGENES fINALES */
+
+
+.final_1 {
+    width: 100%;
+    height: 100%;
+}
+
+.footerImagener {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+/* Footer redes sociales */
+
+.footContenedor {
+    background:  hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    justify-content: center;
+
+}
+
+.socialeSTILO {
+    color:hsl(167, 40%, 24%);
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.socialeSTILO:hover {
+    color:hsl(0, 0%, 100%);
+    transition: .3s ease-in-out;
+}
+
+.contac_2{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contac_3 {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-top: 3.5rem;
+
+}
+
+
